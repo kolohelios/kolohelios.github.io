@@ -11,7 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 10;
+  margin: 0;
 }
 article,
 aside,
@@ -1388,10 +1388,9 @@ a.bg-danger:hover {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 0px;
-  margin: 20px 0 20px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
-  background-color: #92ad9d;
 }
 ul,
 ol {
@@ -4380,7 +4379,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #92ad9d;
+  background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4839,7 +4838,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding: 60x 15px;
+  padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;

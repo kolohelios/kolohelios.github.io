@@ -1,0 +1,18 @@
+/*!
+ * This is CSS that I have written to extend bootstrap.css v3.3.2; originally I had incorporated
+ * the changes directly into bootstrap.css and later learned the error of my ways.
+ */
+
+body {
+    margin 10;
+}
+    
+.page-header {
+    padding-bottom: 0px;
+    margin: 20px 0 20px;
+    background-color: #92ad9d;
+}
+
+.navbar-default {
+    background-color: #92ad9d;
+}
