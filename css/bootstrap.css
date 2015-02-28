@@ -1388,8 +1388,8 @@ a.bg-danger:hover {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
+  padding-bottom: 0px;
+  margin: 20px 0 20px;
   border-bottom: 1px solid #eee;
   background-color: #92ad9d;
 }
@@ -4839,7 +4839,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding: 360x 15px;
+  padding: 60x 15px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
