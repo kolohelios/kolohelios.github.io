@@ -3,20 +3,19 @@
  * the changes directly into bootstrap.css and later learned the error of my ways.
  */
 
-body {
-    margin 10;
-}
-    
-.page-header {
-    padding-bottom: 0px;
-    margin: 20px 0 20px;
-    background-color: #92AD9D;
+.body {
+    background-color: #92AD9D !important;
 }
 
 .navbar-default {
+    padding: 15px;
+    padding-bottom: 0px;
     background-color: #92AD9D;
 }
 
 .jumbotron {
-  background-color: #FAE3F7;
+  margin-left: 50px;
+  margin-right: 50px; 
+  padding: 20px;
+  background-color: #CBA3FF;
 }
