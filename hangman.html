@@ -46,6 +46,11 @@
 	#canvas {
 		padding-top: 10px;
 	}
+	@media (max-width: 600px) {
+		.verbose_text {
+			display: none;
+		}
+	}
 	</style>
 
 	<script type="text/javascript">
@@ -338,7 +343,7 @@ var drawGfx = function(drawElement) {
 <body>
 	<div class="navbar navbar-default navbar-fixed-top">
 		<h3 class="pull-left">Hangman<small> by <a href="http://www.kolohelios.com">Jon Edwards</a></small></h3>
-		<h3 class="pull-right">Wins: <span id="wins">0</span>&nbsp;&nbsp;&nbsp;Losses: <span id="losses">0</span></h3>
+		<h3 class="pull-right"><span class="verbose_text">Wins: </span><span id="wins">0</span>&nbsp;/&nbsp;<span class="verbose_text">Losses: </span><span id="losses">0</span></h3>
 	</div>
 
 
